@@ -119,7 +119,7 @@ function displayJobs() {
                     Education: ${job.education}
                 </div>
                 <div class="contact-buttons">
-                    <a href="tel:91999999999" taget="_blank"><img class="contact" src="/image/BLUE TICK ICON-1.png"></a>
+                    <a href="tel:91999999999" taget="_blank"><img class="contact" src="image/BLUE TICK ICON-1.png"></a>
                     
                     <a href="https://api.whatsapp.com/send/?phone=9891137111&text&type=phone_number&app_absent=0&text=Hello%2C%20I%20need%20blood%20donor.%20Can%20you%20donate%3F
 " taget="_blank"> <img class="contact" src="image/GREEN CALL ICON.png"/></a>
