@@ -1,0 +1,60 @@
+/* styles2.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+  background: #6D6D6D;
+  padding: 10px;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px #0000;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.results-container {
+    width: 20rem;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.job-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-buttons, img {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+
+.contact {
+  width: 2.4rem;
+}
+
