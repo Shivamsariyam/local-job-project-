@@ -12,7 +12,7 @@ body {
   height: 1.5rem;
   display: flex;
   align-items: center;
-  box-shadow: 0 4px 8px #0000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .navbar a {
@@ -62,10 +62,7 @@ form button:hover {
     color: #d32f2f;
 }
 
-select {
-  overflow: auto;
-}
-
+ 
 
 #container {
   min-height: 100vh;
@@ -91,3 +88,4 @@ select {
   flex-direction: column;
   flex-grow: 1;
 }
+
