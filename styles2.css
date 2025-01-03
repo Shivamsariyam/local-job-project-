@@ -99,3 +99,8 @@ img {
   color: black;
   background: white;
 }
+
+.xyz {
+  width: 48px;
+  margin-top: -4px;
+}
