@@ -1,554 +1,472 @@
 
 const jobs = [
+  // Sonkatch tahsil 
   {
-    company: "CallHub Services",
-    location: "Dewas",
-    address: "45, IT Park, Dewas",
-    workType: "Customer Support Rep",
-    education: "Intermediate or Higher"
-    },
-  {
-    company: "Sharma Enterprises",
-    location: "Bhopal",
-    address: "56, Nehru Colony, Bhopal",
-    workType: "Office Assistant",
-    education: "Intermediate or Higher"
-    },
-  {
-    company: "Creative Studio",
-    location: "Ujjain",
-    address: "2nd Floor, City Center Mall, Ujjain",
-    workType: "Graphic Designer",
-    education: "Diploma"
-    },
-
-  {
-    company: "LocalMart",
-    location: "Sehore",
-    address: "22, Circular Road, Sehore",
-    workType: "Delivery Associate",
-    education: "High School"
-    },
-
-  {
-    company: "Saharanpur Electronics",
-    location: "Indore",
-    address: "Shop No. 12, Main Market, Sarai Road, Indore",
-    workType: "Sales Executive",
-    education: "High School"
-    },
-
-  {
-    company: "Mittal & Sons Finance",
-    location: "Harda",
-    address: "15/A, Gandhi Chowk, Harda",
-    workType: "Accountant",
-    education: "Bachelor’s"
-    },
-
-  {
-    company: "ABC Solutions",
-    location: "Hoshangabad",
-    address: "Plot No. 101, Industrial Area, Hoshangabad",
-    workType: "Data Entry Operator",
-    education: "8th Pass"
-    },
-
-  {
-    company: "Gupta Agro Products",
-    location: "Jabalpur",
-    address: "19, Agriculture Market, Nakur, Jabalpur",
-    workType: "Field Sales Manager",
-    education: "Bachelor’s"
-    },
-
-  {
-    company: "City Hospital",
-    location: "Dhar",
-    address: "21/B, Civil Lines, Dhar",
-    workType: "Receptionist",
-    education: "High School"
-    },
-
-  {
-    company: "Shishu Mandir School",
-    location: "Khandwa",
-    address: "Plot No. 5, Shastri Nagar, Khandwa",
-    workType: "Teacher",
-    education: "Bachelor’s"
-    },
-    
-    {
-      company: "Indore steel works",
-      location: "Indore",
-      address: "Industrial Area, Pithampur , Indor",
-      workType: "Steel production",
-      education: "Diploma",
-    },
-    
-    {
-  company: "Bhopal IT Hub ",
-  location: "Bhopal",
-  address: "IT Park, MP Nagar, Bhopal",
-  workType: "Software Development",
-  education: "Bachelor’s",
+  company: "Sonkatch Agro Pvt. Ltd.",
+  location: "Sonkatch",
+  district: "Dewas",
+  address: "Sonkatch road, sonkatch.",
+  workType: "Agro processing.",
+  education: "Intermediate or Higher"
 },
 
 {
-  company: "Jabalpur Builders",
-  location: "Jabalpur",
-  address: "Wright Town, Jabalpur",
-  workType: "Civil Construction",
-  education: "Intermediate or Higher",
+  company: "Sonkatch Cement Works",
+  location: "Sonkatch",
+  district: "Dewas",
+  address: "Near railway station, sonkatch.",
+  workType: "Cement manufacturing",
+  education: "Diploma"
 },
 
 {
-  company: "Gwalior Textiles",
-  location: "Gwalior",
-  address: "Laxmibai Colony, Gwalior",
-  workType: "Textile Manufacturing",
-  education: "High School",
+  company: "Sonkatch Construction",
+  location: "Sonkatch",
+  district: "Dewas",
+  address: "Sonkatch Village, sonkatch",
+  workType: "Construction services",
+  education: "High School"
 },
 
 {
-  company: "Ujjain Craftsmen",
-  location: "Ujjain",
-  address: "Mahakaleshwar Road, Ujjain",
-  workType: "Handmade Crafts",
-  education: "8th Pass",
-},
-
-{
-  company: "Rewa Energy Ltd.",
-  location: "Rewa",
-  address: "Industrial Estate, Rewa",
-  workType: "Renewable Energy",
-  education: "Diploma",
-},
-
-{
-  company: "Sagar Agro Pvt. Ltd.",
-  location: "Sagar",
-  address: "Makronia road, Sagar",
-  workType: "Agricultural Equipment",
-  education: "Intermediate or Higher",
-},
-
-{
-  company: "Satna Cement Works",
-  location: "Satna",
-  address: "Maihar Road, Satna",
-  workType: "Cement production",
-  education: "Diploma",
-},
-
-{
-  company: "Khargone Chamicals",
-  location: "Khargone",
-  address: "Sanawad Road, Khargone",
-  workType: "Chamical Manufacturing",
-  education: "Bachelor’s",
-},
-
-{
-  company: "Dewas Pharma ",
-  location: "Dewas",
-  address: "AB Road, Dewas",
-  workType: "Pharmaceutical Production",
-  education: "Intermediate or Higher",
-},
-
-{
-  company: "Shivpuri Handloom",
-  location: "Shivpuri",
-  address: "Narwar Road, Shivpuri",
-  workType: "Handloom and Weaving",
-  education: "High School",
-},
-
-{
-  company: "Morena Dairy ",
-  location: "Morena",
-  address: "NH-44, Morena",
+  company: "Sonkatch Dairy Pvt. Ltd.",
+  location: "Sonkatch",
+  district: "Dewas",
+  address: "Sonkatch town, sonkatch",
   workType: "Dairy Production",
-  education: "8th Pass",
+  education: "8th Pass"
 },
 
 {
-  company: "Ratlam Logistics",
-  location: "Ratlam",
-  address: "Station Road, Ratlam",
-  workType: "Transportation Sarvice",
-  education: "Diploma",
+  company: "Sonkatch Textiles Co.",
+  location: "Sonkatch",
+  district: "Dewas",
+  address: "Sonkatch bypass, sonkatch",
+  workType: "Textile manufacturing",
+  education: "Intermediate or Higher"
+},
+{
+  company: "Gupta Agro Products",
+  location: "Sonkatch",
+  district: "Dewas",
+  address: "Sonkatch bypass, Sonkatch",
+  workType: "Field Sales Manager",
+  education: "Bachelor’s"
+},
+
+// dewas tahsil
+
+{
+  company: "Dewas Steel Pvt. Ltd.",
+  location: "Dewas",
+  district: "Dewas",
+  address: "Industrial area, Dewas",
+  workType: "Steel production",
+  education: "Diploma"
 },
 
 {
-  company: "Neemuch Agriculture",
-  location: "Neemuch",
-  address: "Mhow-Neemuch Road, Neemuch",
-  workType: "Farming Solutions",
-  education: "Intermediate or Higher",
+  company: "Dewas Pharma Co.",
+  location: "Dewas",
+  district: "Dewas",
+  address: "Dewas market, dewas",
+  workType: "Pharmaceutical manufacturing",
+  education: "Bachelor’s"
 },
 
 {
-  company: "Chhindwara Mining",
-  location: "Chhindwara",
-  address: "Parasai Road, Chhindwara",
-  workType: "Mining operations",
-  education: "Diploma",
+  company: "Dewas Construction Co.",
+  location: "Dewas",
+  district: "Dewas",
+  address: "Pithampur, dewas",
+  workType: "Construction services",
+  education: "High School"
+},
+{
+  company: "Dewas Dairy Pvt. Ltd.",
+  location: "Dewas",
+  district: "Dewas",
+  address: "AB road, dewas",
+  workType: "Dairy production",
+  education: "8th Pass"
 },
 
 {
-  company: "Hoshangabad Papers",
-  location: "Hoshangabad",
-  address: "Seoni Malwa Road, Hoshangabad",
-  workType: "Paper Manufacturing",
-  education: "High School",
+  company: "Dewas Textiles Ltd. Pvt.",
+  location: "Dewas",
+  district: "Dewas",
+  address: "Ranjit nagar, dewas",
+  workType: "Textile manufacturing",
+  education: "Intermediate or Higher"
+},
+
+//Bagli tehsil
+
+{
+  company: "Bagli Cement Ltd.",
+  location: "Bagli",
+  district: "Dewas",
+  address: "Bagli road, bagli",
+  workType: "Cement production",
+  education: "Diploma"
 },
 
 {
-  company: "Vidisha Wood Works",
-  location: "Vidisha",
-  address: "Ganj Basoda, Vidisha",
-  workType: "Woodcraft Production",
-  education: "8th Pass",
+  company: "Bagli Agro Industries",
+  location: "Bagli",
+  district: "Dewas",
+  address: "Bagli Village, bagli",
+  workType: "Agro processing",
+  education: "Intermediate or Higher"
 },
 
 {
-  company: "Damoh Ceramics",
-  location: "Damoh",
-  address: "Patharia Road, Damoh",
-  workType: "Ceramic Goods",
-  education: "Diploma",
+  company: "Bagli Construction Pvt.",
+  location: "Bagli",
+  district: "Dewas",
+  address: "Bagli town, bagli",
+  workType: "Construction services",
+  education: "High School"
 },
 
 {
-  company: "Katni Marble",
-  location: "Katni",
-  address: "Jjinjhari katni",
-  workType: "Marble Mining and Polishing",
-  education: "Intermediate or Higher",
+  company: "Bagli Paper Mills",
+  location: "Bagli",
+  district: "Dewas",
+  address: "Bagli bajar, bagli",
+  workType: "Paper manufacturing",
+  education: "8th Pass"
+},
+
+{
+  company: "Bagli Electrical Co.",
+  location: "Bagli",
+  district: "Dewas",
+  address: "Bagli main road, Bagli",
+  workType: "Electrical manufacturing",
+  education: "Diploma"
+},
+
+{
+  company: "Mittal & Sons Finance",
+  location: "Bagli",
+  district: "Dewas",
+  address: "15/A, Gandhi Chowk, bagli",
+  workType: "Accountant",
+  education: "Bachelor’s"
+},
+
+// Kannod tahsil
+
+{
+  company: "Kannod Agro Pvt. Ltd.",
+  location: "Kannod",
+  district: "Dewas",
+  address: "Kannod road, kannod",
+  workType: "Agro processing",
+  education: "Intermediate or Higher"
+},
+
+{
+  company: "Kannod Stone Works",
+  location: "Kannod",
+  district: "Dewas",
+  address: "Kannod Village, kannod",
+  workType: "Stone mining and polishing",
+  education: "High School"
+},
+
+{
+  company: "Kannod Dairy Co.",
+  location: "Kannod",
+  district: "Dewas",
+  address: "Kannod town, kannod",
+  workType: "Dairy production",
+  education: "8th Pass"
+},
+
+{
+  company: "Kannod Engineering Ltd.",
+  location: "Kannod",
+  district: "Dewas",
+  address: "Kannod market, kannod",
+  workType: "Engineering solutions",
+  education: "Bachelor’s"
+},
+
+{
+  company: "Kannod Construction Co.",
+  location: "Kannod",
+  district: "Dewas",
+  address: "Kannod Village, kannod",
+  workType: "Construction services",
+  education: "Diploma"
+},
+
+// tonk khurd tahsil
+
+{
+  company: "Tonk-Khurd Agro Pvt.",
+  location: "Tonk-Khurd",
+  district: "Dewas",
+  address: "Tonk-Khurd market, tonk-khurd",
+  workType: "Agro processing",
+  education: "Intermediate or Higher"
+},
+
+{
+  company: "Tonk-Khurd Cement Ltd.",
+  location: "Tonk-Khurd",
+  district: "Dewas",
+  address: "Tonk-Khurd road, tonk-khurd",
+  workType: "Cement manufacturing",
+  education: "Diploma"
+},
+
+{
+  company: "Tonk-Khurd Dairy Pvt.",
+  location: "Tonk-Khurd",
+  district: "Dewas",
+  address: "Tonk-Khurd town, tonk-khurd",
+  workType: "Dairy production",
+  education: "8th Pass"
+},
+
+{
+  company: "Tonk-Khurd Textile Co.",
+  location: "Tonk-Khurd",
+  district: "Dewas",
+  address: "Tonk-Khurd bypass, tonk-khurd",
+  workType: "Textile manufacturing",
+  education: "High School"
+},
+
+{
+  company: "Tonk-Khurd Construction",
+  location: "Tonk-Khurd",
+  district: "Dewas",
+  address: "Tonk-Khurd Village, Tonk-Khurd",
+  workType: "Construction services",
+  education: "Intermediate or Higher"
+},
+
+{
+  company: "Jindal Pvt. Ltd",
+  location: "Tonk-Khurd",
+  district: "Dewas",
+  address: "Industrial Estate, Rampur Road, Tonk-Khurd",
+  workType: "Marketing Executive",
+  education: "Bachelor’s"
+},
+
+// khategaon tahsil 
+
+{
+  company: "Khategaon Cement Works",
+  location: "Khategaon",
+  district: "Dewas",
+  address: "Nemavar road, khategaon",
+  workType: "Cement manufacturing",
+  education: "Diploma"
 },  
 
 {
-  company: "Balaghat Metals",
-  location: "Balaghat",
-  address: "Tirodi Mins, Balaghat",
-  workType: "Metal Extraction",
-  education: "Bachelor’s",
+  company: "Khategaon Solar Pvt. Ltd.",
+  location: "Khategaon",
+  district: "Dewas",
+  address: "Khategaon bypass, khategaon",
+  workType: "Solar panel manufacturing",
+  education: "Intermediate or Higher"
 },
 
 {
-  company: "Alirajpur Timber Works",
-  location: "Alirajpur",
-  address: "Alirajpur Road, Alirajpur",
-  workType: "Timber Processing",
-  education: "High School",
+  company: "Khategaon Dairy Co.",
+  location: "Khategaon",
+  district: "Dewas",
+  address: "Khategaon main road, khategaon",
+  workType: "Dairy production",
+  education: "8th Pass"
 },
 
 {
-  company: "Anuppur Cement Factory",
-  location: "Anuppur",
-  address: "Anuppur District, Anuppur",
-  workType: "Cement Production",
-  education: "Intermediate or Higher",
+  company: "Khategaon Electricals",
+  location: "Khategaon",
+  district: "Dewas",
+  address: "Khategaon Village, khategaon",
+  workType: "Electrical manufacturing",
+  education: "High School"
 },
 
 {
-  company: "Ashoknagar Agro Co.",
-  location: "Ashoknagar",
-  address: "Ashoknagar Road, Ashoknagar",
+  company: "Khategaon Textiles Co.",
+  location: "Khategaon",
+  district: "Dewas",
+  address: "Khategaon town, khategaon",
+  workType: "Textile manufacturing",
+  education: "Intermediate or Higher"
+},
+
+{
+  company: "Khategaon Steel Pvt. Ltd.",
+  location: "Khategaon",
+  district: "Dewas",
+  address: "Industrial area, khategaon",
+  workType: "Steel manufacturing",
+  education: "Bachelor’s"
+},
+
+// satwas tahsil
+
+{
+  company: "Satwas Agro Pvt. Ltd.",
+  location: "Satwas",
+  district: "Dewas",
+  address: "Satwas town, Satwas",
+  workType: "Agro processing",
+  education: "Intermediate or Higher"
+},
+
+{
+  company: "Satwas Cement Works",
+  location: "Satwas",
+  district: "Dewas",
+  address: "Satwas market, Satwas",
+  workType: "Cement production",
+  education: "Diploma"
+},
+
+{
+  company: "Satwas Construction Co.",
+  location: "Satwas",
+  district: "Dewas",
+  address: "Satwas road, satwas",
+  workType: "Construction services",
+  education: "High School"
+},
+
+{
+  company: "Satwas Dairy Pvt. Ltd.",
+  location: "Satwas",
+  district: "Dewas",
+  address: "Satwas bypass, satwas",
+  workType: "Dairy processing",
+  education: "8th Pass"
+},
+
+{
+  company: "Satwas Textiles Ltd.",
+  location: "Satwas",
+  district: "Dewas",
+  address: "Satwas village, satwas",
+  workType: "Textile manufacturing",
+  education: "Intermediate or Higher"
+},
+
+{
+  company: "Satwas IT Solutions Pvt. Ltd.",
+  location: "Satwas",
+  district: "Dewas",
+  address: "Satwas industrial area",
+  workType: "Software development",
+  education: "Bachelor’s"
+},
+
+// hatpipliya 
+
+{
+  company: "Agro Elite Pvt. Ltd.",
+  location: "Hatpipliya",
+  district: "Dewas",
+  address: "Hatpipliya village",
+  workType: "Agro processing",
+  education: "Intermediate or Higher"
+},
+
+{
+  company: "Textile Weave Co.",
+  location: "Hatpipliya",
+  district: "Dewas",
+  address: "Hatpipliya bazar",
+  workType: "Textile manufacturing",
+  education: "High School"
+},
+
+{
+  company: "Cement Makers Ltd.",
+  location: "Hatpipliya",
+  district: "Dewas",
+  address: "Hatpipliya Industrial area",
+  workType: "Cement manufacturing",
+  education: "Diploma"
+},
+
+{
+  company: "Hatpipliya Engineering",
+  location: "Hatpipliya",
+  district: "Dewas",
+  address: "Hatpipliya road",
+  workType: "Engineering solutions",
+  education: "Bachelor’s"
+},
+
+{
+  company: "Dairy Delight Pvt. Ltd.",
+  location: "Hatpipliya",
+  district: "Dewas",
+  address: "Hatpipliya village",
+  workType: "Dairy production",
+  education: "8th Pass"
+},
+
+// udainagar tahsil 
+
+{
+  company: "Udainagar Agro Tech",
+  location: "Udainagar",
+  district: "Dewas",
+  address: "Udainagar village",
   workType: "Agro Processing",
-  education: "8th Pass",
+  education: "Intermediate or Higher"
+},
+
+
+{
+  company: "Cement Star Pvt. Ltd.",
+  location: "Udainagar",
+  district: "Dewas",
+  address: "Udainagar main road",
+  workType: "Cement manufacturing",
+  education: "Diploma"
 },
 
 {
-  company: "Barwani Pepar Mills",
-  location: "Barwani",
-  address: "Barwani Road, Barwani",
-  workType: "Pepar Manufracturing",
-  education: "Diploma",
+  company: "Dairy King Pvt. Ltd.",
+  location: "Udainagar",
+  district: "Dewas",
+  address: "Udainagar market",
+  workType: "Dairy production",
+  education: "8th Pass"
 },
 
 {
-  company: "Barwani Electric Ltd.",
-  location: "Barwani",
-  address: "Barwani District, Barwani",
-  workType: "Electrical Equipment",
-  education: "Bachelor’s",
+  company: "Build Core Construction",
+  location: "Udainagar",
+  district: "Dewas",
+  address: "Udainagar City",
+  workType: "Construction",
+  education: "High School"
 },
 
 {
-  company: "Betul Sugar Mills",
-  location: "Betul",
-  address: "Betul Road, Betul",
-  workType: "Sugar Manufacturing",
-  education: "High School",
-},
-
-{
-  company: "Bhind Leather Works",
-  location: "Bhind",
-  address: "Bhind District, Bhind",
-  workType: "Leather Goods",
-  education: "Intermediate or Higher",
-},
-
-{
-  company: "Bhopal Cement Co.",
-  location: "Bhopal",
-  address: "Near Bhopal Station, Bhopal",
-  workType: "Cement Manufacturing",
-  education: "Diploma",
-},
-
-{
-  company: "Burhanpur Textile Mills",
-  location: "Burhanpur",
-  address: "Burhanpur Road, Burhanpur",
-  workType: "Textile Production",
-  education: "Intermediate or Higher",
-},
-
-{
-  company: "Chhatarpur Construction",
-  location: "Chhatarpur",
-  address: "Chhatarpur District, Chhatarpur",
-  workType: "Construction Services",
-  education: "High School",
-},
-
-{
-  company: "Chhindwara Automotives",
-  location: "Chhindwara",
-  address: "Chhindwara Road, Chhindwara",
-  workType: "Automotive Parts Manufacturing",
-  education: "Diploma",
-},
-
-{
-  company: "Damoh Solar Panels",
-  location: "Damoh",
-  address: "Damoh Road, Damoh",
-  workType: "Solar Panel Production",
-  education: "Intermediate or Higher",
-},
-
-{
-  company: "Datia Paper Factory",
-  location: "Datia",
-  address: "Datia District, Datia",
-  workType: "Paper Manufacturing",
-  education: "8th Pass",
-},
-
-{
-  company: "Dhar Food Processing",
-  location: "Dhar",
-  address: "Dhar District, Dhar",
-  workType: "Food Processing",
-  education: "Bachelor’s",
-},
-
-{
-  company: "Dindori Mining Co.",
-  location: "Dindori",
-  address: "Dindori Road, Dindori",
-  workType: "Mining Operations",
-  education: "High School",
-},
-
-{
-  company: "Guna Textiles",
-  location: "Guna",
-  address: "Guna District, Guna",
-  workType: "Textile Manufacturing",
-  education: "Intermediate or Higher",
-},
-
-{
-  company: "Gwalior Stone Works",
-  location: "Gwalior",
-  address: "Gwalior District, Gwalior",
-  workType: "Stone Polishing",
-  education: "8th Pass",
-},
-
-{
-  company: "Hoshangabad Steel",
-  location: "Hoshangabad",
-  address: "Hoshangabad Road, Hoshangabad",
-  workType: "Steel Production ",
-  education: "Diploma",
-},
-
-{
-  company: "Jabalpur Pepar Co.",
-  location: "Jabalpur",
-  address: "Jabalpur District, Jabalpur",
-  workType: "Paper Production",
-  education: "Intermediate or Higher",
-},
-
-{
-  company: "Jhabua Electricals",
-  location: "Jhabua",
-  address: "Jhabua Road, Jhabua",
-  workType: "Electrical Components",
-  education: "High School",
-},
-
-{
-  company: "Katni Minerals",
-  location: "Katni",
-  address: "Katni District, Katni",
-  workType: "Mineral Processing",
-  education: "Diploma",
-},
-
-{
-  company: "Khandwa Agro Works",
-  location: "Khandwa",
-  address: "Khandwa District, Khandwa",
-  workType: "Agriculture Solutions",
-  education: "Intermediate or Higher",
-},
-
-{
-  company: "Khargone Dairy Co.",
-  location: "Khargone",
-  address: "Khargone Road, Khargone",
-  workType: "Dairy Processing",
-  education: "8th Pass",
-},
-
-{
-  company: "Mandla Forest Works",
-  location: "Mandla",
-  address: "Mandla Road, Mandla",
-  workType: "Forest Products",
-  education: "High School",
-},
-
-{
-  company: "Mandsaur Cement Ltd.",
-  location: "Mandsaur",
-  address: "Mandsaur District, Mandsaur",
-  workType: "Cement Production",
-  education: "Diploma",
-},
-
-{
-  company: "Morena Dairy Ltd.",
-  location: "Morena",
-  address: "Morena Road, Morena",
-  workType: "Dairy Manufacturing",
-  education: "Intermediate or Higher",
-},
-
-{
-  company: "Narsinghpur Paper Mills",
-  location: "Narsinghpur",
-  address: "Narsinghpur District, Narsinghpur",
-  workType: "Production",
-  education: "8th Pass",
-},
-
-{
-  company: "Neemuch Chemical Co.",
-  location: "Neemuch",
-  address: "Neemuch District, Neemuch",
-  workType: "Chemical Manufacturing",
-  education: "Bachelor’s",
-},
-
-{
-  company: "Panna Agro",
-  location: "Panna",
-  address: "Panna District, Panna",
-  workType: "Agriculture Solutions",
-  education: "Intermediate or Higher",
-},
-
-{
-  company: "Rajgarh Wood Works",
-  location: "Rajgarh",
-  address: "Rajgarh District, Rajgarh",
-  workType: "Woodcraft Production",
-  education: "High School",
-},
-
-{
-  company: "Ratlam Engineering Co.",
-  location: "Ratlam",
-  address: "Ratlam District, Ratlam",
-  workType: "Engineering Solutions",
-  education: "Diploma",
-},
-
-{
-  company: "Rewa Agro Industries",
-  location: "Rewa",
-  address: "Rewa District, Rewa",
-  workType: "Agro Manufacturing",
-  education: "8th Pass",
-},
-
-{
-  company: "Sehore Pharmaceutical",
-  location: "Sehore",
-  address: "Sehore District, Sehore",
-  workType: "Pharmaceutical Production",
-  education: "Intermediate or Higher",
-},
-
-{
-  company: "Seoni Electrical Ltd.",
-  location: "Seoni",
-  address: "Seoni Road, Seoni",
-  workType: "Electrical Goods",
-  education: "Bachelor’s",
-},
-
-{
-  company: "Shajapur Food Works",
-  location: "Shajapur",
-  address: "Shajapur District, Shajapur",
-  workType: "Food Manufacturing",
-  education: "High School",
-},
-
-{
-  company: "Sheopur Dairy Ltd.",
-  location: "Sheopur",
-  address: "Sheopur District, Sheopur",
-  workType: "Dairy Production",
-  education: "Intermediate or Higher",
-},
-
-{
-  company: "Shivpuri Agro Pvt. Ltd.",
-  location: "Shivpuri",
-  address: "Shivpuri District, Shivpuri",
-  workType: "Agro Processing",
-  education: "Diploma",
-},
-
-{
-  company: "Shidhi Cement Works",
-  location: "Shidhi",
-  address: "Shidhi District, Shidhi",
-  workType: "Cement Manufacturing",
-  education: "8th Pass",
-},
-
-{
-  company: "Singrauli Power Ltd.",
-  location: "Singrauli",
-  address: "Singrauli Road, Singrauli",
-  workType: "Power Generation",
-  education: "Intermediate or Higher",
+  company: "Udainagar Solar Pvt. Ltd.",
+  location: "Udainagar",
+  district: "Dewas",
+  address: "Solar hub, udainagar",
+  workType: "Renewable energy",
+  education: "Bachelor’s"
 }
+
+
 
 ];
 
@@ -578,10 +496,13 @@ function displayJobs() {
       jobCard.classList.add("job-card");
       jobCard.innerHTML = `
                 <div class="jobDiv">
+                <p>
                     <strong>${job.company}</strong><br>
-                    Location: ${job.location}
+                    Tehsil: ${job.location}
                     <br>
                     Address: ${job.address}
+                    <br>
+                    District: ${job.district}
                     <br>
                     Work Type: ${job.workType}
                     <br>
@@ -592,6 +513,7 @@ function displayJobs() {
                     
                     <a href="https://api.whatsapp.com/send/?phone=9891137111&text&type=phone_number&app_absent=0&text=Hello%2C%20I%20need%20blood%20donor.%20Can%20you%20donate%3F
 " taget="_blank"> <img class="contact" src="image/GREEN CALL ICON.png"/></a>
+</p>
                 </div>
             `;
       jobList.appendChild(jobCard);
