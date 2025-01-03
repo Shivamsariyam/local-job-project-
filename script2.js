@@ -526,3 +526,8 @@ function displayJobs() {
 
 
 displayJobs();
+
+document.getElementById("back-button").addEventListener("click",
+function back() {
+  window.history.back()
+})

@@ -44,11 +44,13 @@ body {
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  position: relative;
 }
 
 h1 {
   text-align: center;
   color: #333;
+  margin-top: 10px;
 }
 
 .job-card {
@@ -73,4 +75,27 @@ img {
 
 .contact {
   width: 2.4rem;
+}
+
+
+#back-button{
+  padding: 5px 10px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: black;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: #FFFFFF;
+  
+}
+
+#back-button i {
+  font-size: 10px;
+  padding-right: 5px;
+}
+
+#back-button:hover {
+  color: black;
+  background: white;
 }
