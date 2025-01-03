@@ -1,68 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+
 }
 
 .navbar {
-  background: #6D6D6D;
+  background: #FFFFFF;
   padding: 10px;
   height: 1.5rem;
   display: flex;
   align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #000000;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar a {
   text-decoration: none;
   color: black;
-  
+  padding: 10px;
+}
+
+.navbarheading p {
+  font-size: 20px;
+}
+
+.navbarheading span {
+  color: aqua;
 }
 
 .form-container {
-    max-width: 17rem;
-    margin: 50px auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+  max-width: 17rem;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 h1 {
-    text-align: center;
-    color: black;
-    
+  text-align: center;
+  color: black;
+
 }
 
 form label {
-    display: block;
-    margin: 15px 0 5px;
-    font-weight: bold;
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: bold;
 }
 
-form select, form button {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 form button {
-    background-color: #d32f2f;
-    color: white;
-    cursor: pointer;
-    border: 1px solid #d32f2f;
+  background-color: #d32f2f;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #d32f2f;
 }
 
 form button:hover {
-    background-color: #fff;
-    color: #d32f2f;
+  background-color: #fff;
+  color: #d32f2f;
 }
 
- 
+
 
 #container {
   min-height: 100vh;
@@ -76,7 +91,7 @@ form button:hover {
   border-radius: 20px;
   position: fixed;
   bottom: -8px;
-  
+
 }
 
 .footer img {
@@ -88,4 +103,3 @@ form button:hover {
   flex-direction: column;
   flex-grow: 1;
 }
-

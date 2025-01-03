@@ -1,55 +1,72 @@
-/* styles2.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+
 }
 
 .navbar {
-  background: #6D6D6D;
+  background: #FBFBFB;
   padding: 10px;
   height: 1.5rem;
   display: flex;
   align-items: center;
-  box-shadow: 0 4px 8px #0000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #000000;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .navbar a {
   text-decoration: none;
   color: black;
-  
+  padding: 10px;
 }
 
+.navbarheading p {
+  font-size: 20px;
+}
+
+.navbarheading span {
+  color: aqua;
+}
+
+
 .results-container {
-    width: 20rem;
-    margin: 50px auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+  width: 20rem;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 h1 {
-    text-align: center;
-    color: #333;
+  text-align: center;
+  color: #333;
 }
 
 .job-card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 15px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.contact-buttons, img {
-    margin-left: 10px;
-    display: flex;
-    justify-content: space-between;
-   
+.contact-buttons,
+img {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 
@@ -57,4 +74,3 @@ h1 {
 .contact {
   width: 2.4rem;
 }
-
