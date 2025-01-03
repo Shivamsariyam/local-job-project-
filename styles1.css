@@ -24,11 +24,20 @@ body {
 .navbar a {
   text-decoration: none;
   color: black;
-  padding: 10px;
+  margin: 10px;
 }
 
 .navbarheading p {
   font-size: 20px;
+}
+
+#home {
+  color: aqua;
+}
+
+.navbar-links a:hover {
+  color: aqua;
+  border-bottom: 2px solid black;
 }
 
 .navbarheading span {
