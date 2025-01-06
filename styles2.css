@@ -5,18 +5,18 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
 
 }
 
 .navbar {
-  background: #FBFBFB;
+  background: #1a73e8;
   padding: 10px;
   height: 1.5rem;
   display: flex;
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #fff;
   display: flex;
   justify-content: space-between;
 
@@ -24,16 +24,14 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: #fff;
   margin: 10px;
 }
-#home{
-  color: aqua;
-}
+
 
 .navbar-links a:hover {
-  color: aqua;
-  border-bottom: 2px solid black;
+  color: #90FFDC;
+  border-bottom: 2px solid #90FFDC;
 }
 
 .navbarheading p {
@@ -41,7 +39,7 @@ body {
 }
 
 .navbarheading span {
-  color: aqua;
+  color: #90FFDC;
 }
 
 

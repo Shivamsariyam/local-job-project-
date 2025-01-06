@@ -5,25 +5,25 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
 
 }
 
 .navbar {
-  background: #FFFFFF;
+  background: #1a73e8;
   padding: 10px;
   height: 1.5rem;
   display: flex;
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #fff;
   display: flex;
   justify-content: space-between;
 }
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: #fff;
   margin: 10px;
 }
 
@@ -31,17 +31,16 @@ body {
   font-size: 20px;
 }
 
-#home {
-  color: aqua;
-}
+
 
 .navbar-links a:hover {
-  color: aqua;
-  border-bottom: 2px solid black;
+  color: #90FFDC;
+  border-bottom: 2px solid #90FFDC;
+  transition: all 0.3s linear; 
 }
 
 .navbarheading span {
-  color: aqua;
+  color: #90FFDC;
 }
 
 .form-container {
@@ -95,11 +94,12 @@ form button:hover {
 }
 
 .footer {
-  background: dimgray;
-  border-top: 2px solid gray;
+  background: rgba(110, 110, 110, 0.5);
+  border-top: 1px solid #ffffff;
   border-radius: 20px;
   position: fixed;
   bottom: -8px;
+  box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
 
 }
 
