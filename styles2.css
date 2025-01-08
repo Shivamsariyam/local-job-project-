@@ -51,6 +51,8 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   position: relative;
+  max-height: 570px;
+  overflow: auto;
 }
 
 h1 {
@@ -60,24 +62,27 @@ h1 {
 }
 
 .job-card {
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 5px;
-  padding: 15px;
-  margin-bottom: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: flex-start;
 }
 
 .contact-buttons,
 img {
-  margin-left: 10px;
   display: flex;
   justify-content: space-between;
-
+  padding-top: 10px;
+  gap: 15px;
 }
 
-
+.jobDiv {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
 
 .contact {
   width: 2.4rem;
@@ -109,4 +114,18 @@ img {
 .xyz {
   width: 48px;
   margin-top: -4px;
+}
+
+
+
+#container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.results-container .suggestion {
+  margin-top: 15px;
+  color: gray;
 }
