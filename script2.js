@@ -2355,8 +2355,9 @@ function displayJobs() {
             `;
       jobList.appendChild(jobCard);
     });
-  } else {
+  } else{
     jobList.innerHTML = "<p>No jobs found for your criteria.</p>";
+    alert("select an option before submitting!")
   }
 }
 

@@ -111,6 +111,6 @@ form button:hover {
 .main {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
   overflow-y: auto;
+  flex-grow: 1;
 }
